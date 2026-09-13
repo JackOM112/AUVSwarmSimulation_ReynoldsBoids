@@ -18,7 +18,7 @@ class AUV:
         self.Acceleration = np.zeros(2)
         self.MaxSpeed = 2.0
 
-#Updates AUVs' properties each frame
+    #Updates AUVs' properties each frame
     def Update(self):
         self.Velocity = self.Velocity + self.Acceleration
         Speed = np.linalg.norm(self.Velocity)
