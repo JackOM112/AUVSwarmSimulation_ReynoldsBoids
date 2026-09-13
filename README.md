@@ -4,4 +4,4 @@ Simple Python script that uses Craig Reynolds' Boids algorithm to simulate an AU
 ### How to Run
 Make sure you have Python installed along with "numpy" and "pygame", then run:
 
-####python main.py
+python main.py
